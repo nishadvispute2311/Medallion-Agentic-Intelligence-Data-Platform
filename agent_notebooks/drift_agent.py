@@ -437,7 +437,6 @@ import json
 # STEP 6 — UPDATE CONTROL TABLE (MERGE UPSERT) 2
 # ============================================================
 
-# actions = [d["recommended_action"] for d in agent_result["drifts"]]
 actions = []
 
 if "drifts" in agent_result:
